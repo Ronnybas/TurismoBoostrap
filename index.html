@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Ecuador</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-success fw-bold" href="#hero">Turismo</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contenido">Explora el Ecuador</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactos">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="text-white d-flex align-items-center justify-content-center text-center"
+             style="min-height: 60vh; background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('images/hero.jpg') center/cover no-repeat;">
+        <div>
+            <h1 class="fw-bold display-4">Turismo Ecuador</h1>
+            <p class="lead">Explora la belleza, la cultura y las aventuras de Ecuador.</p>
+        </div>
+    </section>
+
+    <!-- Contenido -->
+    <section id="contenido" class="container py-5">
+        <h2 class="text-center mb-3">Destinos destacados</h2>
+        <p class="text-center mb-5">Encuentra información sobre regiones, actividades y recomendaciones para visitantes.</p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/andes.jpg" class="card-img-top" alt="Andes">
+                    <div class="card-body">
+                        <h5 class="card-title">Andes</h5>
+                        <p class="card-text">Montañas, senderismo y pueblos con tradición.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/amazonia.jpg" class="card-img-top" alt="Amazonía">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazonía</h5>
+                        <p class="card-text">Biodiversidad, tours ecológicos y comunidades indígenas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="images/galapagos.jpg" class="card-img-top" alt="Galápagos">
+                    <div class="card-body">
+                        <h5 class="card-title">Galápagos y Costa</h5>
+                        <p class="card-text">Islas únicas, vida marina y playas con gastronomía local.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contactos" class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h4>Contactos</h4>
+            <p>Email: info@turismoecuador.com</p>
+            <p>Teléfono: +593 123 456 789</p>
+            <p>Dirección: Quito, Ecuador</p>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
